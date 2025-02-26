@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import UserAPI from "../../my-fe-nexjs/api/admin";
+import UserAPI from "@/api/admin";
 import { toast } from "@/components/hook/use-toast";
 
 interface User {
